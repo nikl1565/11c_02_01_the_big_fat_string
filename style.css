@@ -1,0 +1,28 @@
+* {
+    box-sizing: border-box;
+}
+
+.o-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 3rem;
+}
+
+.o-container > * + * {
+    margin-top: 1rem;
+}
+
+.o-form-group {
+    display: flex;
+    flex-direction: column;
+}
+
+.c-label {
+    margin-bottom: 0.25rem;
+}
+
+.c-input,
+.c-select {
+    flex-grow: 1;
+    padding: 2px 4px;
+}
