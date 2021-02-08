@@ -171,5 +171,5 @@ function convertToUppercaseIfFollowedByHyphenOrSpace() {
 function showOutput() {
     console.log("showOutput");
 
-    outputString.value = stringResult;
+    outputString.textContent = stringResult;
 }
